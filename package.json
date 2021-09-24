@@ -1,0 +1,26 @@
+{
+  "name": "com.rishabh.jsframework",
+  "version": "1.0.0",
+  "description": "\"Automation Project based on Java Script\"",
+  "main": "index.js",
+  "scripts": {
+    "local": "cypress open",
+    "test": "cypress run",
+    "headless" : "cypress run --headless --browser chrome",
+    "sanity": "cypress run --spec cypress/integration/amazon_spec.js",
+    "sanity_headless": "cypress run --spec cypress/integration/amazon_spec.js --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishjaiswal/javascript-automation-framework.git"
+  },
+  "author": "Rishabh Jaiswal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishjaiswal/javascript-automation-framework/issues"
+  },
+  "homepage": "https://github.com/rishjaiswal/javascript-automation-framework#readme",
+  "devDependencies": {
+    "cypress": "^8.2.0"
+  }
+}
